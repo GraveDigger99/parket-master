@@ -1460,9 +1460,10 @@ textarea.input {
 
 @media (min-width: 70.75em) {
   .tariff__subtitle {
-    -webkit-writing-mode: sideways-lr;
-        -ms-writing-mode: sideways-lr;
-            writing-mode: sideways-lr;
+    -webkit-box-pack: center;
+    -ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
   }
 
   .tariff__description {
